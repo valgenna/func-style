@@ -1,3 +1,5 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const result = await makeHttpRequest(url);
+var arr2 = arr1.reverse();
