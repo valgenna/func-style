@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log("0 && 1 = "+(0 && 1));
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
