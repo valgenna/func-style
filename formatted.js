@@ -1,1 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(+"1" +  "1" + "2");
+console.log(1 +  +"2" + "2");
