@@ -1,2 +1,1 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-var c = new Counter(); c.add(); c.add(); c.add();
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
