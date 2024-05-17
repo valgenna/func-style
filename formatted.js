@@ -1,3 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-console.log(typeof typeof 1);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
