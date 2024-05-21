@@ -1,2 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const arrayContains = (arr, element) => arr.includes(element);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
