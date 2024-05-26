@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const uniqueArr = (arr) => [...new Set(arr)];
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
