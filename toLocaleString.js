@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-function myAPITS(someString: string, someNum: number) { ... };
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const merge = (a, b) => a.concat(b);
