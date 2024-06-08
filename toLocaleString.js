@@ -1,3 +1,1 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const merge = (a, b) => a.concat(b);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
