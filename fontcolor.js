@@ -1,3 +1,1 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const results = await Promise.all(resultingPromises);
-const merge = (a, b) => [...a, ...b];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
