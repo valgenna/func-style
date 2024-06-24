@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log(1 +  -"1" + "2");
+const channel = getChannel(computedAppVersion);
+console.log("0 || 1 = "+(0 || 1));
+const arrayContains = (arr, element) => arr.includes(element);
