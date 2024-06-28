@@ -1,2 +1,1 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const updated = numbers.filter(element => element > 6);
+const goToTop = () => window.scrollTo(0, 0);
