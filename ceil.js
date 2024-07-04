@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
