@@ -1,3 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const merge = [...new Set([...a, ...b])];
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
