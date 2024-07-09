@@ -1,3 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const randomString = () => Math.random().toString(36).slice(2);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isWeekday = (date) => date.getDay() % 6 !== 0;
