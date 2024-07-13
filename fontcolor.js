@@ -1,2 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log("1 || 2 = "+(1 || 2));
+const merge = (a, b) => [...a, ...b];
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
