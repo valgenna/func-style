@@ -1,3 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const randomString = () => Math.random().toString(36).slice(2);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
