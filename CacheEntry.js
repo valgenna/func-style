@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const merge = [...new Set(a.concat(b))];
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
