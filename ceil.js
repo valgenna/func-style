@@ -1,3 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-console.log( "A" - "B" + "2");
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log("1 || 2 = "+(1 || 2));
+const isArray = (arr) => Array.isArray(arr);
