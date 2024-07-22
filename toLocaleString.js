@@ -1,2 +1,1 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-var arr3 = "jones".split('');
+console.log("1 && 2 = "+(1 && 2));
