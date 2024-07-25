@@ -1,3 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const flattenedArray = arr => [].concat(...arr);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log("0 || 1 = "+(0 || 1));
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
