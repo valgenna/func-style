@@ -1,1 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const flattenedArray = arr => [].concat(...arr);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
