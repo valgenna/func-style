@@ -1,2 +1,2 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log(false == '0');
+const arrayContains = (arr, element) => arr.includes(element);
